@@ -22,7 +22,6 @@
         android:id="@+id/progressCover"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white"
         android:elevation="98dp"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,7 +54,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="36dp"
-        android:gravity="center_vertical"
+        android:gravity="top"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/film_poster"
@@ -65,7 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="false"
-            android:text="@string/film_genre"></com.google.android.material.chip.Chip>
+            android:text="@string/film_genre" />
 
         <TextView
             android:id="@+id/film_genre"
@@ -74,7 +73,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
             android:paddingStart="8dp"
-            android:textSize="12sp"
+            android:maxLines="2"
+            android:textSize="10sp"
             tools:ignore="RtlSymmetry" />
 
         <com.google.android.material.chip.Chip
@@ -88,9 +88,8 @@
             style="@style/TextAppearance.MaterialComponents.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
             android:paddingStart="8dp"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="RtlSymmetry" />
 
 
