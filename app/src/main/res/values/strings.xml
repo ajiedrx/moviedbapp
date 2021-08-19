@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Films and TV</string>
+    <string name="film_genre">Genre</string>
+    <string name="film_duration">Duration</string>
+    <string name="film_overview">Overview</string>
+    <string name="data_load_failed">Failed to load data</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="empty_overview">No overview available.</string>
+    <string name="dashboard_title">Top Rated Movies or TV Shows</string>
+    <string name="favorite_toggle_off">Favorite</string>
+    <string name="favorite_toggle_on">Favorited</string>
+</resources>
