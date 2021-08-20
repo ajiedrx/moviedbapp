@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
 import com.example.favorite.injection.favoriteModule
@@ -20,6 +21,12 @@ class FavoriteFilmFragment : Fragment() {
             "Movies",
             "TV Show"
         )
+    }
+
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        val actionBar = (activity as AppCompatActivity?)?.supportActionBar
+        actionBar?.title = getString(R.string.favorite_page_title)
+        super.onActivityCreated(savedInstanceState)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
