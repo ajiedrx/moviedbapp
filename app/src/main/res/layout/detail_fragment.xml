@@ -72,8 +72,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:paddingStart="8dp"
             android:maxLines="2"
+            android:paddingStart="8dp"
             android:textSize="10sp"
             tools:ignore="RtlSymmetry" />
 
